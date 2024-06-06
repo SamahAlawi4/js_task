@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    top:0;
+    box-sizing: border-box;
+}
+/* header section*/
+.header{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    box-shadow: 1px 1px lightblue;
+    padding: 10px;
+    width: 100%;
+    position: static;
+}
+.img_logo{
+    padding: 8px;
+}
+
+.list_header a{
+    color: black; 
+    text-decoration: none;
+    text-align: center;
+}
+.list_header a:hover{
+    box-shadow: 1px 1px rgb(247, 248, 248);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.list_header{
+    display: inline-flex;
+    gap:20px;
+    padding: 8px;
+    
+
+
+}
+.register_header{
+    display: inline-flex;
+    gap:20px;
+}
+.register_header a{
+    text-decoration: none;
+    border: 1px;
+    padding: 8px;
+    border-radius: 25%;
+    color: black;
+}
+ .register_header .logIN{
+    border: 1px;
+    border-radius: 10%;
+    width: 40px;
+    background-color: rgb(234, 125, 37);
+}
+.font_change{
+    font-size: 40px;
+    color:blueviolet;
+}
+/* header section*/
+/*centers*/
+.centers{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin: 20px;
+}
+.center_first span{
+    color: rgb(244, 139, 10);
+}
+.center_first h1 {
+    
+    
+}
+.center_first .center_explore{
+    border: 1px;
+    border-radius: 2%;
+    width: 150px;
+    background-color: rgb(234, 125, 37);
+}
+
+/*centers*/
